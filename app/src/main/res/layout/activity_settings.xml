@@ -1,0 +1,89 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@android:id/tabhost"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <TabWidget
+        android:id="@android:id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </TabWidget>
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/tab2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp" >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level_new"
+                android:id="@+id/radioButton3"
+                android:clickable="true"
+                android:onClick="onClick2"
+               />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level_prof"
+                android:id="@+id/radioButton4"
+                android:clickable="true"
+                android:onClick="onClick2"
+                android:layout_weight="0.14" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/tab3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="301dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp" >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/music_play"
+                    android:id="@+id/radioButton1"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/music_stop"
+                    android:clickable="true"
+                    android:onClick="onClick1"
+                    android:id="@+id/radioButton2"
+                    android:layout_weight="0.14" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>
+</TabHost>

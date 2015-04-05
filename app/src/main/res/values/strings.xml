@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jungle of C#</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_nastroiki">Settings</string>
+    <string name="main_spravka">Reference</string>
+    <string name="main_playgame">Play</string>
+    <string name="title_activity_reference">Справка</string>
+    <string name="reference_ref">Справка</string>
+    <string name="reference_text">        Здравствуй, <b>коллега</b>!\n
+        Если ты хочешь освоить язык программирования С#,
+        а скучные книги и запутанные статьи не помогают,
+        то это приложение разработанно <b>специально для тебя</b>!
+        В игре есть два <b>уровня: Новичок и Продвинутый</b>.
+        Выбери <b>Уровень</b>  в разделе <b>Настройки</b>         нажми кнопки <b>Играть</b> -> <b>Сгенерировать задачу</b>,
+        и попытайся собрать программу. После того,
+        как будешь уверен в правильности кода,
+        нажми кнопку <b>Проверить</b> и узнай <b>результ</b>.
+        Но знай, что после <b>трех</b> неудачных попыток,
+        приложение само покажет тебе верное решение.
+        Кроме того приложение реализованно на двух языках
+        и к тому же позволяет выбирать в разделе <b>Настройки</b> <b>фоновую музыку</b>. Надеюсь, тебе будет удобно и
+        приятно работать с этим приложением.\nПерейдя по стрелке, ты сможешь\n
+        ознакомится с краткой теорией по С#.\n<b>Удачи и быстрого освоения C#!</b></string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="set_nastroiki">Настройки</string>
+    <string name="title_activity_creation">Создание задачи</string>
+    <string name="creation_but">Сгенерировать задачу</string>
+    <string name="title_activity_perfomance">Решение задачи</string>
+    <string name="perfomance_zadanie"><b>Задание:</b>Написать программу,\nреализующую сложение двух целых чисел</string>
+    <string name="perfomance_programa">Какие-то кусочки кода</string>
+    <string name="perfomance_proverka">Проверить код</string>
+    <string name="title_activity_best">Результат</string>
+    <string name="result_result">Итог:1-ая, 2-ая, 3-ья ли попытка были удачными</string>
+    <string name="text_of_program">        Console.WriteLine("a = ");\n
+        int a = Convert.ToInt32(Console.ReadLine());\n
+        Console.WriteLine("b = ");\n
+        int b = Convert.ToInt32(Console.ReadLine());\n
+        int c = a + b;\n
+        Console.WriteLine("c = ",c);\n
+        Console.WriteLine("Please, press Enter...");\n
+        Console.ReadLine();</string>
+    <string name="language_rus">Русский</string>
+    <string name="language_eng">English</string>
+    <string name="language">Язык</string>
+    <string name="level">Уровень</string>
+    <string name="music">Звук</string>
+    <string name="level_new">Новичок</string>
+    <string name="level_prof">Продвинутый</string>
+    <string name="title_activity_first_screen">FirstScreenActivity</string>
+    <string name="music_first">Звук1</string>
+    <string name="music_second">Звук2</string>
+    <string name="music_third">Звук3</string>
+    <string name="music_stop">Выкл</string>
+    <string name="music_play">Вкл</string>
+    <string name="title_activity_theory">Теория</string>
+    <string name="theory_name">Тут будет краткая теория\n для новичков</string>
+    <string name="main_surprise">БАЗЫ ДАННЫХ</string>
+    <string name="title_activity_demo_bd">DemoBDActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_my_creation">MyCreationActivity</string>
+    <string name = "main_razvlechenie">РАЗВЛЕЧЕНИЕ</string>
+    <string name="creation_vremya">Вывод всего</string>
+
+</resources>
