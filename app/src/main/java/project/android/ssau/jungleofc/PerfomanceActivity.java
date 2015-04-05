@@ -42,7 +42,7 @@ public class PerfomanceActivity extends ActionBarActivity implements OnTouchList
         //создаём из массова строк TextView`ы
         //применяем тачЛистнеры
         //определяем размещение
-        //сверяем наш ответ с правильным
+        //сверяем наш ответ с правильнымsafdasdfsa dfsad fasdf sadfasdfwera dsf
 
         String user = "ЖЫвотное";
         ArrayList<String> gift;// = "дырку от бублика";
